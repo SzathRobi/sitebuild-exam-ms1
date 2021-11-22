@@ -19,6 +19,9 @@ button {
   width: 200px;
   position: absolute;
   cursor: pointer;
+  border: none;
+  box-shadow: 3px 6px 8px rgba(0, 0, 0, 0.6),
+    -2px -4px 12px rgba(255, 255, 255, 0.6);
 }
 
 .btn1 {
@@ -27,19 +30,24 @@ button {
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
+  background: linear-gradient(to bottom, #ccc, #888);
 }
 
 .btn2,
 .btn3 {
   height: 60px;
   bottom: 40px;
+  border-radius: 0.4rem;
 }
 
 .btn2 {
   right: 40px;
+  background: linear-gradient(to bottom, #2ccec0, #1aa398);
 }
 
 .btn3 {
   left: 50%;
   transform: translateX(-50%);
+  background: linear-gradient(to right, #4b2dd3, #a42dd3);
+  color: #fff;
 }
